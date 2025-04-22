@@ -1,6 +1,491 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <title>UPet</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Animales, Mascotas, Cuidados animales, Veterinarias" name="keywords">
+    <meta content="UPet official Landing Page Site" name="description">
+    <meta content="PetTech" name="author">
+    <!-- Favicon -->
+    <link href="public/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="public/assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="public/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="public/assets/styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="public/assets/styles/style.css" rel="stylesheet">
 </head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+<div class="container-xxl bg-white p-0">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-xxl position-relative p-0" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <img src="public/assets/images/upet.png" alt="Logo EasyPetEducation">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >
+                <span class="fa fa-bars "></span>.
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#feature" class="nav-item nav-link">Pets</a>
+                    <a href="#feature2" class="nav-item nav-link">Veterinarians</a>
+                    <a href="#review" class="nav-item nav-link">Review</a>
+                    <a href="#contact" class="nav-item nav-link">Contact</a>
+                    <a href="https://devpaw-upet.web.app/" class="nav-item nav-link">Start now</a>
+
+                </div>
+                <a href="#download" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block" style="box-shadow: 0px 0px 6px rgba(10,27,62,0.72);">Download</a>
+            </div>
+        </nav>
+
+        <div class="container-xxl bg-primary hero-header">
+            <div class="container px-lg-5">
+                <div class="row g-5">
+                    <div class="col-lg-8 text-center text-lg-start">
+                        <h1 class="text-white mb-4 animated slideInDown">TAKE CARE OF YOUR BEST FRIEND</h1>
+                        <h2 class="text-white pb-3 animated slideInDown">Giving the best</h2>
+                        <a href="#about" class="btn btn-dark py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft" style="box-shadow: 0px 0px 10px rgba(10,27,62,0.72);">Learn more</a>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <img class="img-fluid wow fadeInUp" src="public/assets/images/2.png" width="600" height="600" style="width: 600px; height: auto" alt="Mascotas">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about">
+        <div class="container py-5 px-lg-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <h1 class="mb-4">Do you want to connect with the best veterinarians?</h1>
+                    <p class="miau" style="color: #000000;">Find them on UPet, book appointments with certified veterinarians, digitize your pet's medical history and activate reminders. Everything on one platform to make caring for your best friend easy and convenient.<br></p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <i class="fa fa-solid fa-user fa-2x text-primary-gradient flex-shrink-0 mt-1" style="color: #fa6559"></i>
+                                <div class="ms-3">
+                                    <h2 class="mb-0" data-toggle="counter-up">3757</h2>
+                                    <p class="text-primary-gradient mb-0" style="font-weight: bold">Users</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="d-flex">
+                                <i class="fa fa-star fa-2x text-secondary-gradient flex-shrink-0 mt-1" style="color: #fa6559"></i>
+                                <div class="ms-3">
+                                    <h2 class="mb-0" data-toggle="counter-up">4.8</h2>
+                                    <p class="text-secondary-gradient mb-0" style="font-weight: bold">Score</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=XCxfJIAeP54" target="_blank" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3" style="box-shadow: 0px 0px 10px rgba(10,27,62,0.85);"><i class="fa fa-play"></i>  Watch video</a>
+                </div>
+                <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="owl-carousel screenshot-carousel">
+                        <img class="img-fluid" src="public/assets/images/Splash%20Screen%201.png" alt="">
+                        <img class="img-fluid" src="public/assets/images/Profile%20pet%202.png" alt="">
+                        <img class="img-fluid" src="public/assets/images/Detail%20Doctor%203.png" alt="">
+                        <img class="img-fluid" src="public/assets/images/MedicHistory%204.png" alt="">
+                        <img class="img-fluid" src="public/assets/images/Mascota%20perdida.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Features Pets Start -->
+    <div class="container-xxl py-5" id="feature">
+        <div class="container py-5 px-lg-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-4">Do you have a pet?</h1>
+                <p class="miau" style="color: #000000;">Access the different services we offer and give the best care to your pet.</p><br>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-calendar text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Appointments</h2>
+                        <p class="m-0">Make an appointment with your favorite veterinarian and save waiting time.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-paw text-white fs-4" ></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Pets</h2>
+                        <p class="m-0" >Register your pets and keep their information organized.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-search text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Nearby vets</h2>
+                        <p class="m-0">Find the veterinarians closest to you that provide the services you want.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-clipboard-list text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Medical history</h2>
+                        <p class="m-0">Digitize your pets' medical history and take it with you everywhere.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-bell text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Notifications</h2>
+                        <p class="m-0">Turn on reminders and easily remember your pending activities.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-warning text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Lost pet</h2>
+                        <p class="m-0">Share that your pet is lost and increase the chance of finding it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Features Vets Start -->
+    <div class="container-xxl py-5" id="feature2">
+        <div class="container py-5 px-lg-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-4">Do you have a veterinarian?</h1>
+                <p class="miau" style="color: #000000;">Join UPet and improve the quality of your services.</p><br>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-paw text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Profile</h2>
+                        <p class="m-0">Register your veterinarian and create an attractive online presence for clients to find you.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-calendar-check text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Record</h2>
+                        <p class="m-0">Records vaccinations, results, surgeries and illnesses in the pet's medical history.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-clipboard-list text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Medical history</h2>
+                        <p class="m-0">Offers better care by accessing updated medical history and relevant pet data.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-file-medical text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Services</h2>
+                        <p class="m-0">Offer your customers information about all your services and add your opening hours.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-eye fa-map-location text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Map</h2>
+                        <p class="m-0">Register the location of your veterinarian on the map and help more pet owners locate you.<br></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="feature-item bg-light rounded p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                            <i class="fa fa-comment text-white fs-4"></i>
+                        </div>
+                        <h2 class="mb-3" style="color: #0A1B3E">Reviews</h2>
+                        <p class="m-0">Periodically review the ratings and comments and use the feedback to grow your veterinarian.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5" id="review">
+        <div class="container py-5 px-lg-5">
+            <div class="text-center wow fadeInUp " data-wow-delay="0.1s">
+                <h1 class="mb-4">Review</h1>
+                <p class="miau" style="color: #000000;">Testimonials from UPet users.</p><br>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="public/assets/images/testimonial-1.jpg" style="width: 85px; height: 85px;" alt="customer_testimonial_1">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Maria Mercedes</h5>
+                                <p class="mb-1">Pet owner</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star-half-alt text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Since using UPet, I feel much calmer about my dog's health. The vaccine and checkup reminders help me not forget anything important.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="public/assets/images/testimonial-2.jpg" style="width: 85px; height: 85px;" alt="customer_testimonial_2">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Mario Casas</h5>
+                                <p class="mb-1">Veterinary</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star-half-alt text-warning"></small>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">I find the application very interesting, the Comments section allows me to better know the impressions I leave on my clients.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="public/assets/images/testimonial-3.jpg" style="width: 85px; height: 85px;" alt="customer_testimonial_3">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Roberto Fuentes</h5>
+                                <p class="mb-1">Pet owner</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Very useful when registering information about my pet, but I can't find the veterinarian I need.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="public/assets/images/testimonial-4.jpg" style="width: 85px; height: 85px;" alt="customer_testimonial_4">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Anna Johanson</h5>
+                                <p class="mb-1">Veterinary</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">As a veterinary clinic, we have seen a significant improvement in the continuity of care for our patients since recommending the use of UPet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Download Start -->
+    <div class="container-xxl py-5" id="download">
+        <div class="container py-5 px-lg-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="public/assets/images/dowland.png" alt="App_frames">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Download UPet!</h1>
+                    <p class="miau" style="color: #000000;">Join the more than 3,000 people who have chosen UPet and give your best friend the best quality of life.</p>
+                    <div class="row g-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <a href="https://www.apple.com/la/app-store/" target="_blank" class="d-flex bg-primary-gradient rounded py-3 px-4" style="box-shadow: 0px 0px 10px rgba(10,27,62,0.8);">
+                                <i class="fab fa-apple fa-3x text-white flex-shrink-0"></i>
+                                <div class="ms-3">
+                                    <p class="text-white mb-0">Available on</p>
+                                    <h2 class="text-white mb-0">App Store</h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <a href="https://play.google.com/store/games?hl=es" target="_blank" class="d-flex bg-secondary-gradient rounded py-3 px-4" style="box-shadow: 0px 0px 10px rgba(10,27,62,0.8);">
+                                <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
+                                <div class="ms-3">
+                                    <p class="text-white mb-0">Available on</p>
+                                    <h2 class="text-white mb-0">Play Store</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Download End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5" id="contact">
+        <div class="container py-5 px-lg-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">Send us a message</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="wow fadeInUp" data-wow-delay="0.3s">
+                        <p class="miau text-center" style="color: #000000;">Enter your information and your query so we can respond to you as soon as possible.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="last_name" placeholder="Your Last_name">
+                                        <label for="last_name">Last name</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit" style="box-shadow: 0px 0px 10px rgba(10,27,62,0.8);">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5 px-lg-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3">
+                    <h1 class=" mb-4">Know us</h1>
+                    <p>PetTech, a company dedicated to developing technological solutions, presents UPet: the innovative mobile application that simplifies the search for the ideal veterinarian for your pet.</p>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+                    <h1 class=" mb-4">Contacts</h1>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>143 Santiago de Surco, Lima, Perú</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+51 972046389</p>
+                    <p><i class="fa fa-envelope me-3"></i>u.pet@gmail.com</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h1 class="mb-4">Social networks</h1>
+                    <p><a href="https://twitter.com/EasyPetEdu " style="color:#FFFFFF;" target="_blank" ><i class="fab fa-twitter me-3 text-white"></i>Twitter</a></p>
+                    <p><a href="https://www.facebook.com/Easy-Pet-Education-107522125325279" style="color:#FFFFFF;" target="_blank" ><i class="fab fa-facebook-f me-3 text-white"></i>Facebook</a></p>
+                    <p><a href="https://www.instagram.com/easy_pet_education/" style="color:#FFFFFF;" target="_blank" ><i class="fab fa-instagram me-3 text-white"></i>Instagram</a></p>
+                    <p><a href="https://www.youtube.com/channel/UChpnuaf7oordRdrpvO8Myqg" style="color:#FFFFFF;" target="_blank" ><i class="fab fa-youtube me-3 text-white"></i>Youtube</a></p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h1 class="mb-4">News</h1>
+                    <p>Enter your email and stay up to date with the latest news from UPet!</p>
+                    <div class="position-relative w-100 mt-3">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" id="email2"  type="text" placeholder="Email" style="height: 48px;"><label for="email2" style="color: #F63839FF;">.</label>
+                        <button class="btn btn-primary-gradient rounded-pill py-1 px-2 position-absolute top-0 end-0 mt-2 me-2" type="submit" style="box-shadow: 0px 0px 6px rgba(10,27,62,0.8);">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-lg-5">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="color: #0A1B3E">
+                        &copy; <a class="border-bottom" href="#" style="color: #0A1B3E">PetTech</a>, All Right Reserved. Designed by PetTech
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#home" class="btn btn-lg btn-lg-square back-to-top pt-2" style="color: #f15c5d;">.<i class="bi bi-arrow-up text-white"  ></i>.</a>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="public/assets/lib/wow/wow.min.js"></script>
+<script src="public/assets/lib/easing/easing.min.js"></script>
+<script src="public/assets/lib/waypoints/waypoints.min.js"></script>
+<script src="public/assets/lib/counterup/counterup.min.js"></script>
+<script src="public/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="public/assets/scripts/main.js"></script>
+</body>
+
+</html>
